@@ -11,13 +11,17 @@
     <div class="box">
         <h2>sign up</h2>
 
-        <form action="" class="inputs">
-            <input type="text" class="input" placeholder="FullName">
-            <input type="text" class="input" placeholder="Email">
-            <input type="text" class="input" placeholder="Password">
-            <input type="text" class="input" placeholder="ConfirmPassword">
+        <form action="" class="inputs" id="signupform">
+            <input type="text" class="input" id="fullname" placeholder="FullName">
+            <input type="text" class="input" id="email" placeholder="Email">
+            <input type="text" class="input" id="password" placeholder="Password">
+            <input type="text" class="input" id="confirmPassword" placeholder="ConfirmPassword">
             <button>Submit</button>
         </form>
     </div>
+    <div id="message"></div>
+
+    <!-- connect js -->
+    <script src="validation.js"></script>
 </body>
 </html>

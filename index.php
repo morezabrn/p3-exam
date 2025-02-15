@@ -3,9 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>sign-up</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- sign up form  -->
     <div class="box">
         <h2>sign up</h2>
 

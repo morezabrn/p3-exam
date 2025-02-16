@@ -35,9 +35,10 @@
             echo "ثبت‌نام با موفقیت انجام شد";  
         } else {  
             foreach ($errors as $error) {  
-                echo $error . "<br>";  
+                echo "<p id='error'>$error</p>" . "<br>";  
             }  
         }  
     ?>
+    
 </body>
 </html>

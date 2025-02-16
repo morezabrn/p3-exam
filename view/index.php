@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>sign-up</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../asset/style.css">
 </head>
 <body>
     <!-- sign up form  -->
@@ -22,6 +22,8 @@
     <div id="message"></div>
 
     <!-- connect js -->
-    <script src="validation.js"></script>
+    <script src="../javascript/validation.js"></script>
+
+    <p></p>
 </body>
 </html>

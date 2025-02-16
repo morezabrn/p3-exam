@@ -11,11 +11,11 @@
     <div class="box">
         <h2>sign up</h2>
 
-        <form action="" class="inputs" id="signupform">
-            <input type="text" class="input" id="fullname" placeholder="FullName">
-            <input type="text" class="input" id="email" placeholder="Email">
-            <input type="text" class="input" id="password" placeholder="Password">
-            <input type="text" class="input" id="confirmPassword" placeholder="ConfirmPassword">
+        <form action="signup.php" method="POST" onsubmit="function" class="inputs" id="signupform">
+            <input type="text" class="input" id="fullname" placeholder="FullName" name="fullname">
+            <input type="text" class="input" id="email" placeholder="Email" name="email">
+            <input type="text" class="input" id="password" placeholder="Password" name="password">
+            <input type="text" class="input" id="confirmPassword" placeholder="ConfirmPassword" name="confirmPassword">
             <button>Submit</button>
         </form>
     </div>
